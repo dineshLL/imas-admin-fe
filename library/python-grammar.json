@@ -1,0 +1,13 @@
+{
+    "_id": "python-grammar",
+    "_rev": "1-b51a39ec5ab3eb1fe22191f07fd08afb",
+    "example": "doodle",
+    "src": "\nauth {color:green, shape: box, label:auth}\nauth -> bce76753535a\nbce76753535a -> 2931c8420292\n2931c8420292 -> end {color:red, shape:dot, label:end}\nitems {color:green, shape: box, label:items}\nitems -> 20b219721c0d\n20b219721c0d -> 0379245fa657\n0379245fa657 -> bce76753535a\nbce76753535a -> 3a1f19f5f76f\n3a1f19f5f76f -> 2931c8420292\n2931c8420292 -> end {color:red, shape:dot, label:end}\n\nend {color:red, shape:dot, label:end}",
+    "sys": {
+        "friction": 0.5,
+        "gravity": false,
+        "repulsion": 2600,
+        "stiffness": 512
+    },
+    "title": "IMAS"
+}
